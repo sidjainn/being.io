@@ -1,0 +1,75 @@
+.mdl-layout__header img {
+  height: 60%;
+  padding-right: 30px;
+  position: relative;
+  margin-left: -62px; }
+
+body {
+  background-image: url("../images/night.jpg") !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background: #1e2127; }
+
+ellipse {
+  stroke: #000;
+  fill: none;
+  opacity: 1; }
+
+.axis {
+  font: 10px sans-serif; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+circle {
+  fill: inherit,red; }
+
+.v {
+  stroke: black;
+  stroke-dasharray: 4 4;
+  stroke-width: 1;
+  stroke-opacity: .2; }
+
+.line {
+  fill: none;
+  stroke-width: 2px; }
+
+.lineConsume {
+  fill: none;
+  stroke-width: 2px;
+  opacity: 0.8; }
+
+.lineConsume:hover {
+  stroke-width: 4px; }
+
+.lineWastage {
+  fill: none;
+  stroke-width: 2px;
+  opacity: 0.8; }
+
+.lineWastage:hover {
+  stroke-width: 4px; }
+
+.wide-card.mdl-card {
+  width: auto;
+  max-width: none;
+  height: auto;
+  max-height: none;
+  margin-bottom: 16px;
+  background: antiquewhite; }
+
+.mdl-card svg {
+  display: block;
+  margin: auto; }
+
+@media (max-width: 872px) {
+  .mdl-card__title-text {
+    font-size: 20px !important; } }
+.mdl-button.capitalize {
+  text-transform: capitalize !important;
+  cursor: vertical-text !important; }
